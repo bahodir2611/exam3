@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yangiliklar</title>
+    <link rel="stylesheet" href="../css/global.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+          <div class="site-header__inner">
+            <button onclick="menu()" class="menu"></button>
+            <a class="logo" href="../index.html">
+              <h1 style="font-size: 30px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif sans-serif;">LOGO</h1>
+            </a>
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="#biz-haqimizda">Biz haqimizda</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="../html-pages/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#bizning-xizmatlarimiz">Xizmatlarimiz</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Buyurtma berish</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="site-header__main">
+              <input type="checkbox" id="theme-btn" />
+              <label
+                onclick="theme()"
+                class="site-header__main__label"
+                for="theme-btn"
+              ></label>
+              <span>
+                <a href="tel:998907777777"> +998 90 777-77-77 </a>
+                <a href="mailto:chotatam@gmail.com"> Nobody@gmail.com </a>
+              </span>
+              <button>Заказать звонок</button>
+            </div>
+            <button onclick="theme()" class="mobile-theme"></button>
+          </div>
+        </div>
+      </header>
+    
+
+    <main>
+      <div class="site-menu">
+        <div class="site-menu__header">
+          <a href="./index.html">
+            <img src="./images/logo-dark.svg" alt="Logo" />
+          </a>
+          <button onclick="closeMenu()" class="menu-close"></button>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="/news.html"> Biz haqimizda </a>
+            </li>
+            <li>
+              <a href="/portfolio.html"> Portfolio </a>
+            </li>
+            <li>
+              <a href="/index.html"> Xizmatlarimiz </a>
+            </li>
+            <li>
+              <a href="/index.html"> Buyurtma berish </a>
+            </li>
+          </ul>
+        </nav>
+        <a href="tel:999999999">(99) 999 9999</a>
+      </div>
+        <div class="container">
+            <section class="news-box">
+                <div class="lift">
+                    <div class="it-img"><img src="../images/news/lift1.png" alt=""></div>
+
+                    <div class=" it-cards">
+                        <h2>IT Parkʼda eksportga yo‘naltirilgan IT-kompaniyalar bilan  uchrashuv bo‘lib o‘tdi</h2>
+                        <p>24-fevral kuni IT Park Toshkent filialida IT Park direktori Farhod Ibragimov va tashkilotning rezident-eksportyor kompaniyalari oʻrtasida uchrashuv bo‘lib o‘tdi.
+                            Tadbirning maqsadi – IT va BPO xizmatlari eksportining joriy holatini va O‘zbekistonda IT eksportini oshirish choralarini muhokama qilishdan iborat.
+                            Uchrashuv davomida Farhod Zairovich eksportning joriy holatiga oid ayrim statistik ma’lumotlar bilan boʻlishdi. Shunday qilib, oʻtgan yilgi maʼlumotlarga koʻra,
+                             IT-xizmatlar eksporti hajmi $140 millionni tashkil etdi, eksportning qariyb 48 foizi dasturiy taʼminotni yaratuvchi kompaniyalariga toʻgʻri keladi, 44 foizdan 
+                             biroz koʻprogʻi esa biznes jarayonlari autsorsingi bilan shugʻullanuvchi kompaniyalarga toʻgʻri keladi. Bundan tashqari, eksportning 80% dan ziyodi AQSh bozoriga
+                              toʻgʻri keladi, ammo boshqa koʻplab potensial bozorlar, jumladan Yevropa, Kanada va Sharq mamlakatlari mavjud.
+                            “Afsuski, eksportning asosiy qismi Toshkentdan amalga oshiriladi, demak, biz boshqa hududlardan ham eksportni yanada oshirishga e’tibor qaratishimiz kerak. 
+                            Barchangizga ma’lumki, Prezident bizga IT-xizmatlar eksportini 300 million dollargacha oshirish vazifasini qo‘ydi. Ishonchim komilki, birgalikdagi sa’y-harakatlarimiz va bilimlarimiz bilan eksportni oshirish bo‘yicha samarali strategiyalarni ishlab chiqa olamiz va Oʻzbekistonda IT sohasi rivojiga oʻz hissamizni qoʻsha olamiz”, – dedi IT Park direktori.</p>
+                        <img src="../images/news/lift2.png" alt="">
+                        <p>Hozirda IT Park Uzbekistan xalqaro moliya markazi hamda kompaniyalarga yangi mahsulot va xizmatlarni nazorat qilinadigan muhitda testdan o‘tkazish imkonini beruvchi tartibga soluvchi sandbox yaratish ustida ishlamoqda. Bu xorijiy kompaniyalar uchun qulaylik va xavfsizlik darajasini taʼminlaydigan shartnomalar va kelishuvlar uchun ingliz huquqidan foydalanish imkoniyatini oʻz ichiga oladi.
+                            Tashkilot, shuningdek, rezident eksport qiluvchi kompaniyalar uchun maxsus raqamli bankni ishlab chiqish jarayonida. U ularning ehtiyojlariga moslashtirilgan bir qator moliyaviy xizmatlarni, shu jumladan, xorijiy valyutasidagi hisoblar va raqamli toʻlov tizimlarini taklif qiladi.
+                            Asosiy qism yakunida savol-javoblar sessiyasi boshlandi. Ayrim rezident kompaniyalar vakillari eksportdagi muvaffaqiyatlari bilan boʻlishdilar, shuningdek, birgalikdagi sa’y-harakatlar bilan qo‘yilgan vazifaga qanday erishish mumkinligi bo‘yicha takliflar bilan almashdilar.
+                            Bundan tashqari, kompaniyalar duch kelgan toʻsiqlar haqida gapirdilar. Xususan, relokatsiya paytidagi uy-joy muammosi va uy-joy narxining oshishi haqida soʻz yuritildi. Takliflar qatorida bojxona rasmiylashtiruvi uchun imtiyozlar va xorijiy mamlakatlarga IT sohasidagi rasmiy tashriflarda ishtirok etish so‘rovi bildirildi.</p>
+                        <img src="../images/Line 3.png" alt="">
+
+                        <div class="under-line">
+                            <div class="texts"><p>#hi_tech_#IT_PARK</p></div>
+                            <div class="vaqt"><img src="../images/date.png" alt=""></div>
+                            <div class="share"><img src="../images/news/share.png" alt=""><p>Ulashish</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="right-cards">
+                        <div class=" card-1">
+                            <img src="../images/news/right1.png" alt="">
+                            <h3>Dizaynni o'rgangandan keyin nima qilish kerak?</h3>
+                        </div>
+                        <div class=" card-1">
+                            <img src="../images/news/right2.png" alt="">
+                            <h3>Bitiruvchilarning 81 foizi o’zlari yoqtirgan ish faoliyati bilan...</h3>
+                        </div>
+                        <div class=" card-1">
+                            <img src="../images/news/right3.png" alt="">
+                            <h3>Frontend yo'nalishidagi musobaqaga tayyormisiz?</h3>
+                        </div>
+                        <div class=" card-1">
+                            <img src="../images/news/right4.png" alt="">
+                            <h3>«Najot Ta'lim»da navbatdagi kirish sinovlari bo'lib o'tdi</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+
+
+      <footer>
+        <div class="container footer">
+          <div class="logo"><p class="h1">LOGO</p></div>
+  
+          <div class="lokatsiya">
+            <div class="lakat-img"><img src="../images/icons/lokatsiya.png" alt=""></div>
+            <div class="manzil"><p>Manzil:  Toshkent shahri, Sergeli tumani, Navro’z ko’cha 3-uy. <br>
+              Mo’ljal:  “ASIA AUTO” avtosalon ichki qismi</p></div>
+          </div>
+  
+          <div class="tel-adres">
+  
+            <div class="tel">
+              <div class="tel-1">
+                <img src="..//images/icons/tel.png" alt="">
+                <a href="">+998 99 999 99 99</a></div>
+            </div>
+            <div class="tel-1">
+              <img src="../images/icons/tel.png" alt="">
+              <a href="">+998 99 999 99 99</a></div>
+          </div>
+          <div class="net-adres">
+            <div class="net-img">
+              <img src="../images/icons/telegram.png" alt="">
+              <img src="../images/icons/facebook.png" alt="">
+              <img src="../images/icons/insta.png" alt="">
+            </div>
+          </div>
+  
+          </div>
+            
+        </div>
+      </footer>
+
+      <script src="../js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./slick-1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+</html>

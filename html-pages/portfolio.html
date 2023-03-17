@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="../css/global.min.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <button onclick="menu()" class="menu"></button>
+        <a class="logo" href="../index.html">
+          <h1 style="font-size: 30px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif sans-serif;">LOGO</h1>
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="./news.html">Biz haqimizda</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="../index.html">Xizmatlarimiz</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="../index.html">Buyurtma berish</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="site-header__main">
+          <input type="checkbox" id="theme-btn" />
+          <label
+            onclick="theme()"
+            class="site-header__main__label"
+            for="theme-btn"
+          ></label>
+          <span>
+            <a href="tel:998907777777"> +998 90 777-77-77 </a>
+            <a href="mailto:chotatam@gmail.com"> Nobody@gmail.com </a>
+          </span>
+          <button>Заказать звонок</button>
+        </div>
+        <button onclick="theme()" class="mobile-theme"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  
+    <section class="container projects">
+      <div class="container">
+        <div class="projects__inner">
+          <h2 class="projects__title">Bajargan loyihalarimiz</h2>
+          <ul class="projects__nav">
+            <li class="projects__nav__item projects__nav__item--active">
+              Barchasi
+            </li>
+            <li class="projects__nav__item">Veb sayt</li>
+            <li class="projects__nav__item">Veb dizayn</li>
+            <li class="projects__nav__item">SMM</li>
+            <li class="projects__nav__item">Mobil ilova</li>
+          </ul>
+          <ul class="projects__list">
+            <li class="projects__item">
+              <a href="" class="projects__link">UYMAKON mobil ilovasi</a>
+            </li>
+            <li class="projects__item">
+              <a href="" class="projects__link">UYMAKON mobil ilovasi</a>
+            </li>
+            <li class="projects__item">
+              <a href="" class="projects__link">UYMAKON mobil ilovasi</a>
+            </li>
+            <li class="projects__item">
+              <a href="" class="projects__link">UYMAKON mobil ilovasi</a>
+            </li>
+            <li class="projects__item">
+              <a href="" class="projects__link">UYMAKON mobil ilovasi</a>
+            </li>
+            <li class="projects__item">
+              <a href="" class="projects__link">UYMAKON mobil ilovasi</a>
+            </li>
+          </ul>
+          <div class="projects__bottom">
+            <a class="projects__bottom__link" href="./portfolio.html">
+              <span>Barchasini</span> <span>ko’rish</span>
+            </a>
+            <a class="projects__bottom__link--2" href="./portfolio.html">
+              <span>Barchasini</span> <span>ko’rish</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container coffee">
+      <div class="coffee__inner">
+        <form action="" class="coffee__form">
+          <div class="coffee__content">
+            <h2 class="coffee__title">
+              Sizni bir finjon qahva ustida loyihangizni batafsil muhokama
+              qilishga mamnuniyat ila taklif qilamiz.
+            </h2>
+            <input type="text" name="user_name" placeholder="Ismingiz">
+            <input type="tel" name="user_phone" placeholder="Telefon raqamingiz">
+            <input type="text" name="user_message" placeholder="G'oyangiz xaqida qisqacha (Muhim emas)">
+            <p class="coffee__type">
+              Qanday xizmatlardan foydalanishni xoxlaysiz?
+            </p>
+            <div class="coffee__checks">
+              <label>
+                <input type="checkbox" name="Backend">
+                <span></span>
+                <p>Backend</p>
+              </label>
+              <label>
+                <input type="checkbox" name="Frontend">
+                <span></span>
+                <p>Frontend</p>
+              </label>
+              <label>
+                <input type="checkbox" name="CRM ishlab chiqish">
+                <span></span>
+                <p>CRM ishlab chiqish</p>
+              </label>
+              <label>
+                <input type="checkbox" name="Grafik dizayn">
+                <span></span>
+                <p>Grafik dizayn</p>
+              </label>
+              <label>
+                <input type="checkbox" name="Internet magazin 
+                ishlab chiqish">
+                <span></span>
+                <p>Internet magazin ishlab chiqish</p>
+              </label>
+              <label>
+                <input type="checkbox" name="Motion dizayn">
+                <span></span>
+                <p>Motion dizayn</p>
+              </label>
+              <label>
+                <input type="checkbox" name="Logotip va Brandbook">
+                <span></span>
+                <p>Logotip va Brandbook</p>
+              </label>
+              <label>
+                <input type="checkbox" name="Mobil ilova 
+                ishlab chiqish">
+                <span></span>
+                <p>Mobil ilova ishlab chiqish</p>
+              </label>
+              <label>
+                <input type="checkbox" name="Portal ishlab chiqish">
+                <span></span>
+                <p>Portal ishlab chiqish</p>
+              </label>
+              <label>
+                <input type="checkbox" name="Veb sayt ishlab chiqish">
+                <span></span>
+                <p>Veb sayt ishlab chiqish</p>
+              </label>
+              <label>
+                <input type="checkbox" name="Veb dizayn">
+                <span></span>
+                <p>Veb dizayn</p>
+              </label>
+              <label>
+                <input type="checkbox" name="SMM dizayn">
+                <span></span>
+                <p>SMM dizayn</p>
+              </label>
+              <label>
+                <input type="checkbox" name="Mobilograf">
+                <span></span>
+                <p>Mobilograf</p>
+              </label>
+            </div>
+          </div>
+          <div class="coffee__img">
+            <h3 class="coffee__subtitle">NIMANI MA'QUL KO'RASIZ?</h3>
+            <div class="coffee__list">
+              <label>
+                <input type="radio" value="Achchiq kofe" name="coffee">
+                <div class="coffee__item">
+                  <img src="..//images/home/taklif/cofe1.png" alt="coffee">
+                  <h4 class="coffee__name">Achchiq kofe</h4>
+                </div>
+              </label>
+              <label>
+                <input type="radio" value="Sutli kofe" name="coffee">
+                <div class="coffee__item">
+                  <img src="../images/home/taklif/cofe2.png" alt="coffee">
+                  <h4 class="coffee__name">Sutli kofe</h4>
+                </div>
+              </label>
+              <label>
+                <input type="radio" value="Suv" name="coffee">
+                <div class="coffee__item">
+                  <img src="../images/home/taklif/suv.png" alt="coffee">
+                  <h4 class="coffee__name">Suv</h4>
+                </div>
+              </label>
+              <label>
+                <input type="radio" value="Choy" name="coffee">
+                <div class="coffee__item">
+                  <img src="../images/home/taklif/choy.png" alt="coffee">
+                  <h4 class="coffee__name">Choy</h4>
+                </div>
+              </label>
+            </div>
+            <div class="projects__bottom">
+              <button class="projects__bottom__link" style="border: none">
+                <span>Mijoz</span> <span>bo’lish</span>
+              </button>
+              <button class="projects__bottom__link projects__bottom__link--2" style="border: none">
+                <span>Mijoz</span> <span>bo’lish</span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer">
+    <div class="container footer">
+      <div class="logo">
+        <p class="h1">LOGO</p>
+      </div>
+
+      <div class="lokatsiya">
+        <div class="lakat-img"><img src="../images/icons/lokatsiya.png" alt=""></div>
+        <div class="manzil">
+          <p>Manzil: Toshkent shahri, Sergeli tumani, Navro’z ko’cha 3-uy. <br>
+            Mo’ljal: “ASIA AUTO” avtosalon ichki qismi</p>
+        </div>
+      </div>
+
+      <div class="tel-adres">
+
+        <div class="tel">
+          <div class="tel-1">
+            <img src="../images/icons/tel.png" alt="">
+            <a href="">+998 99 999 99 99</a>
+          </div>
+        </div>
+        <div class="tel-1">
+          <img src="../images/icons/tel.png" alt="">
+          <a href="">+998 99 999 99 99</a>
+        </div>
+      </div>
+      <div class="net-adres">
+        <div class="net-img">
+          <img src="../images/icons/telegram.png" alt="">
+          <img src="../images/icons/facebook.png" alt="">
+          <img src="../images/icons/insta.png" alt="">
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+
+  <script src="../js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./slick-1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>

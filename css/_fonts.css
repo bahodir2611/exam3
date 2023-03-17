@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/Fontspring-DEMO-proximanova-regular.otf');
+  }
+  
+  @font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/Fontspring-DEMO-proximanovacond-semibold.otf');
+  }
+  
+  @font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/Fontspring-DEMO-proximanova-bold.otf');
+  }
+  
+  @font-face {
+    font-family: 'Futura PT';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/FuturaBoldfont.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Futura PT';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/futura-mediumbt.ttf');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nunito-sans-v12-latin-regular.woff2') format('woff2'),
+      url('../fonts/nunito-sans-v12-latin-regular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+      url('../fonts/Gilroy-Regular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
+      url('../fonts/Gilroy-Semibold.woff') format('woff');
+  }
+
+
+  @font-face {
+    font-family: 'Proxima Nova';
+    src: url(../fonts/proxima_nova/ProximaNova-Regular.otf) format(truetype);
+  }
+  @font-face {
+    font-family: 'Inter';
+    src: url(../fonts/inter/static/Inter-Regular.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: 'Futura PT';
+    src: url(././../fonts/futura/FuturaPT-Demi.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/gilroy/Gilroy-Regular.ttf);
+  }
+  

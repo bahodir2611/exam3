@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agency</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/global.min.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <button onclick="menu()" class="menu"></button>
+        <a class="logo" href="./index.html">
+          <h1
+            style="font-size: 30px; font-family: 'Inter';
+            ">
+            LOGO</h1>
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" style='font-family:Proxima Nova' href="#biz-haqimizda">О компании</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./html-pages/portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Услуги</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="site-header__main">
+          <input type="checkbox" id="theme-btn" />
+          <label onclick="theme()" class="site-header__main__label" for="theme-btn"></label>
+          <span>
+            <a href="tel:998907777777"> +998 90 777-77-77 </a>
+            <a href="mailto:chotatam@gmail.com"> chotatam@gmail.com </a>
+          </span>
+          <button>Заказать звонок</button>
+        </div>
+        <button onclick="theme()" class="mobile-theme"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="site-menu">
+      <div class="site-menu__header">
+        <a href="./index.html">
+          <img src="./images/logo-dark.svg" alt="Logo" />
+        </a>
+        <button onclick="closeMenu()" class="menu-close"></button>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="./html-pages/news.html"> Biz haqimizda </a>
+          </li>
+          <li>
+            <a href="./html-pages/portfolio.html"> Portfolio </a>
+          </li>
+          <li>
+            <a href="#"> Xizmatlarimiz </a>
+          </li>
+          <li>
+            <a href="./index.html"> Buyurtma berish </a>
+          </li>
+        </ul>
+      </nav>
+      <a href="tel:999999999">(99) 999 9999</a>
+    </div>
+
+    <div class="container">
+
+      <section class="hero">
+        <div class="hero__bg">
+          <div class="container">
+            <div class="hero__inner">
+              <div class="hero__content">
+                <h1 class="hero__title">
+                  Biz veb saytlar, ilovalarni ishlab chiqamiz
+                </h1>
+                <p class="hero__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </p>
+                <div class="hero__bottom">
+                  <a class="hero__link" href=""> Портфолио </a>
+                  <a class="hero__link--2" href="">
+                    Портфолио
+                  </a>
+                </div>
+              </div>
+              <div class="hero__globus">
+                <div>
+                  <canvas id="cobe" width="1200" height="1200"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+      <section class="row" id="biz-haqimizda">
+  
+        <div class=" lift">
+          <h1>Kompaniya haqida</h1>
+          <p>Agentlik-bu mijozlarga o'z bizneslari uchun sifatli va innovatsion echimlarni taqdim etish maqsadida
+            tashkil etilgan veb-agentlik. Bizning jamoamiz mijozlarga moslashtirilgan va sifatli mahsulotni taklif
+            qilish uchun yaqin hamkorlikda ishlaydigan tajribali veb-dizayn, ishlab chiqish va marketing
+            mutaxassislaridan iborat. <br><br>
+  
+            Biz veb-dizayn, veb-sayt va mobil ilovalarni ishlab chiqish, SEO optimallashtirish, kontent yaratish va
+            reklama kampaniyalarini o'z ichiga olgan keng ko'lamli xizmatlarni taklif etamiz. Biz eng yangi
+            texnologiyalar va innovatsion usullardan foydalangan holda brendni rivojlantirish va sotishni ko'paytirish
+            bilan shug'ullanamiz.</p>
+        </div>
+        <div class=" right">
+  
+          <div class="right-1">
+            <h2>20+</h2>
+            <p>Проектов запустил</p>
+          </div>
+  
+          <div class="right-1">
+            <h2>4 года</h2>
+            <p>Опыта разработки</p>
+          </div>
+          <div class="right-1">
+            <h2>12+</h2>
+            <p>Профессионалов</p>
+          </div>
+  
+          <div class="right-1">
+            <h2>4 года</h2>
+            <p>Опыта разработки</p>
+          </div>
+  
+        </div>
+      </section>
+  
+      <section id="bizning-afzalliklarimiz">
+        <div class="biz-center">
+          <h1>Bizning afzalliklarimiz</h1>
+        </div>
+        <div class=" biz-cards">
+          <div class="biz-card">
+            <img src="./images/home/biz-1.png" alt="">
+            <h2>Individual yondashuv</h2>
+            <img src="./images/home/biz-line.png" alt="">
+            <p>Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga javob beradigan echimlarni yaratamiz
+            </p>
+          </div>
+  
+          <div class="biz-card">
+            <img src="./images/home/biz-2.png" alt="">
+            <h2>Ekspertiza</h2>
+            <img src="./images/home/biz-line.png" alt="">
+            <p>Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga javob beradigan echimlarni yaratamiz
+            </p>
+          </div>
+  
+          <div class="biz-card">
+            <img src="./images/home/biz-3.png" alt="">
+            <h2>Professional xizmat</h2>
+            <img src="./images/home/biz-line.png" alt="">
+            <p>Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga javob beradigan echimlarni yaratamiz
+            </p>
+          </div>
+  
+          <div class="biz-card">
+            <img src="./images/home/biz-1.png" alt="">
+            <h2>Individual yondashuv</h2>
+            <img src="./images/home/biz-line.png" alt="">
+            <p>Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga javob beradigan echimlarni yaratamiz
+            </p>
+          </div>
+  
+          <div class="biz-card">
+            <img src="./images/home/biz-2.png" alt="">
+            <h2>Ekspertiza</h2>
+            <img src="./images/home/biz-line.png" alt="">
+            <p>Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga javob beradigan echimlarni yaratamiz
+            </p>
+          </div>
+  
+          <div class="biz-card">
+            <img src="./images/home/biz-3.png" alt="">
+            <h2>Professional xizmat</h2>
+            <img src="./images/home/biz-line.png" alt="">
+            <p>Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga javob beradigan echimlarni yaratamiz
+            </p>
+          </div>
+        </div>
+      </section>
+  
+      <section class="projects">
+        <div class="container">
+          <div class="projects__inner">
+            <h2 class="projects__title">Bajargan loyihalarimiz</h2>
+            <ul class="projects__nav">
+              <li class="projects__nav__item projects__nav__item--active">
+                Barchasi
+              </li>
+              <li class="projects__nav__item">Veb sayt</li>
+              <li class="projects__nav__item">Veb dizayn</li>
+              <li class="projects__nav__item">SMM</li>
+              <li class="projects__nav__item">Mobil ilova</li>
+            </ul>
+            <ul class="projects__list">
+              <li class="projects__item">
+                <a href="" class="projects__link">UYMAKON mobil ilovasi</a>
+              </li>
+              <li class="projects__item">
+                <a href="" class="projects__link">UYMAKON mobil ilovasi</a>
+              </li>
+              <li class="projects__item">
+                <a href="" class="projects__link">UYMAKON mobil ilovasi</a>
+              </li>
+              <li class="projects__item">
+                <a href="" class="projects__link">UYMAKON mobil ilovasi</a>
+              </li>
+              <li class="projects__item">
+                <a href="" class="projects__link">UYMAKON mobil ilovasi</a>
+              </li>
+              <li class="projects__item">
+                <a href="" class="projects__link">UYMAKON mobil ilovasi</a>
+              </li>
+            </ul>
+            <div class="projects__bottom">
+              <a class="projects__bottom__link" href="./portfolio.html">
+                <span>Barchasini</span> <span>ko’rish</span>
+              </a>
+              <a class="projects__bottom__link--2" href="./portfolio.html">
+                <span>Barchasini</span> <span>ko’rish</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section id="bizning-xizmatlarimiz">
+        <div class="biz-xiz-center">
+          <h1>Bizning Xizmatlar</h1>
+        </div>
+        <div class="biz-xiz-cards">
+          <div class="biz-xiz">
+            <img src="./images/home/icons/code.png" alt="">
+            <h2>Veb saytlar</h2>
+            <p>Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.
+          </div>
+  
+          <div class="biz-xiz">
+            <img src="./images/home/icons/code2.png" alt="">
+            <h2>UI/UX Dizayn</h2>
+            <p>Biz UI/UX dizayn xizmatlarini taqdim etamiz
+          </div>
+  
+          <div class="biz-xiz">
+            <img src="./images/home/icons/video-play.png" alt="">
+            <h2>Mobil ilovalar</h2>
+            <p>Biz eng yaxshi dizaynerlar xizmatlarini taqdim etamiz
+          </div>
+  
+          <div class="biz-xiz">
+            <img src="./images/home/icons/align-vertically.png" alt="">
+            <h2>SMM</h2>
+            <p>Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.
+          </div>
+  
+          <div class="biz-xiz">
+            <img src="./images/home/icons/code.png" alt="">
+            <h2>Grafik dizayn</h2>
+            <p>Biz fotografiya xizmatlarini
+              taqdim etamiz
+          </div>
+  
+          <div class="biz-xiz">
+            <img src="./images/home/icons/icon2.png" alt="">
+            <h2>Professional xizmat</h2>
+            <p>Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.
+          </div>
+        </div>
+      </section>
+
+      <section id="blog">
+        <h1 style="text-align: center;" >Blog xizmatalrimiz</h1>
+
+        <div class="body">
+          <div id="wrapper">
+            <div id="carousel">
+              <div id="content">
+                <div class="carusels-card">
+                  <img src="./images/carusel-1/c1.png" alt="">
+                  <h2>«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+                  <p>🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+                  <div class="botm">
+                    <h3>#hi_tech</h3>
+                    <h4>14:45   22/02/23</h4>
+                  </div>
+                </div>
+
+                <div class="carusels-card">
+                  <img src="./images/carusel-1/c2.png" alt="">
+                  <h2>«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+                  <p>🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+                  <div class="botm">
+                    <h3>#hi_tech</h3>
+                    <h4>14:45   22/02/23</h4>
+                  </div>
+                </div>
+
+                <div class="carusels-card">
+                  <img src="./images/carusel-1/c3.png" alt="">
+                  <h2>«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+                  <p>🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+                  <div class="botm">
+                    <h3>#hi_tech</h3>
+                    <h4>14:45   22/02/23</h4>
+                  </div>
+                </div>
+
+                <div class="carusels-card">
+                  <img src="./images/carusel-1/c1.png" alt="">
+                  <h2>«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+                  <p>🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+                  <div class="botm">
+                    <h3>#hi_tech</h3>
+                    <h4>14:45   22/02/23</h4>
+                  </div>
+                </div>
+
+                <div class="carusels-card">
+                  <img src="./images/carusel-1/c2.png" alt="">
+                  <h2>«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+                  <p>🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+                  <div class="botm">
+                    <h3>#hi_tech</h3>
+                    <h4>14:45   22/02/23</h4>
+                  </div>
+                </div>
+
+                <div class="carusels-card">
+                  <img src="./images/carusel-1/c3.png" alt="">
+                  <h2>«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+                  <p>🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+                  <div class="botm">
+                    <h3>#hi_tech</h3>
+                    <h4>14:45   22/02/23</h4>
+                  </div>
+                </div>
+            
+              </div>
+            </div>
+            <button id="prev">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path fill="none" d="M0 0h24v24H0V0z" />
+                <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+              </svg>
+            </button>
+            <button id="next">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path fill="none" d="M0 0h24v24H0V0z" />
+                <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+              </svg>
+            </button>
+          </div>
+        </div >
+      </section>
+
+   
+
+  
+  
+  
+      <section class="coffee">
+        <div class="coffee__inner">
+          <form action="" class="coffee__form">
+            <div class="coffee__content">
+              <h2 class="coffee__title">
+                Sizni bir finjon qahva ustida loyihangizni batafsil muhokama
+                qilishga mamnuniyat ila taklif qilamiz.
+              </h2>
+              <input type="text" name="user_name" placeholder="Ismingiz">
+              <input type="tel" name="user_phone" placeholder="Telefon raqamingiz">
+              <input type="text" name="user_message" placeholder="G'oyangiz xaqida qisqacha (Muhim emas)">
+              <p class="coffee__type">
+                Qanday xizmatlardan foydalanishni xoxlaysiz?
+              </p>
+              <div class="coffee__checks">
+                <label>
+                  <input type="checkbox" name="Backend">
+                  <span></span>
+                  <p>Backend</p>
+                </label>
+                <label>
+                  <input type="checkbox" name="Frontend">
+                  <span></span>
+                  <p>Frontend</p>
+                </label>
+                <label>
+                  <input type="checkbox" name="CRM ishlab chiqish">
+                  <span></span>
+                  <p>CRM ishlab chiqish</p>
+                </label>
+                <label>
+                  <input type="checkbox" name="Grafik dizayn">
+                  <span></span>
+                  <p>Grafik dizayn</p>
+                </label>
+                <label>
+                  <input type="checkbox" name="Internet magazin 
+                    ishlab chiqish">
+                  <span></span>
+                  <p>Internet magazin ishlab chiqish</p>
+                </label>
+                <label>
+                  <input type="checkbox" name="Motion dizayn">
+                  <span></span>
+                  <p>Motion dizayn</p>
+                </label>
+                <label>
+                  <input type="checkbox" name="Logotip va Brandbook">
+                  <span></span>
+                  <p>Logotip va Brandbook</p>
+                </label>
+                <label>
+                  <input type="checkbox" name="Mobil ilova 
+                    ishlab chiqish">
+                  <span></span>
+                  <p>Mobil ilova ishlab chiqish</p>
+                </label>
+                <label>
+                  <input type="checkbox" name="Portal ishlab chiqish">
+                  <span></span>
+                  <p>Portal ishlab chiqish</p>
+                </label>
+                <label>
+                  <input type="checkbox" name="Veb sayt ishlab chiqish">
+                  <span></span>
+                  <p>Veb sayt ishlab chiqish</p>
+                </label>
+                <label>
+                  <input type="checkbox" name="Veb dizayn">
+                  <span></span>
+                  <p>Veb dizayn</p>
+                </label>
+                <label>
+                  <input type="checkbox" name="SMM dizayn">
+                  <span></span>
+                  <p>SMM dizayn</p>
+                </label>
+                <label>
+                  <input type="checkbox" name="Mobilograf">
+                  <span></span>
+                  <p>Mobilograf</p>
+                </label>
+              </div>
+            </div>
+            <div class="coffee__img">
+              <h3 class="coffee__subtitle">NIMANI MA'QUL KO'RASIZ?</h3>
+              <div class="coffee__list">
+                <label>
+                  <input type="radio" value="Achchiq kofe" name="coffee">
+                  <div class="coffee__item">
+                    <img src="./images/home/taklif/cofe1.png" alt="coffee">
+                    <h4 class="coffee__name">Achchiq kofe</h4>
+                  </div>
+                </label>
+                <label>
+                  <input type="radio" value="Sutli kofe" name="coffee">
+                  <div class="coffee__item">
+                    <img src="./images/home/taklif/cofe2.png" alt="coffee">
+                    <h4 class="coffee__name">Sutli kofe</h4>
+                  </div>
+                </label>
+                <label>
+                  <input type="radio" value="Suv" name="coffee">
+                  <div class="coffee__item">
+                    <img src="./images/home/taklif/suv.png" alt="coffee">
+                    <h4 class="coffee__name">Suv</h4>
+                  </div>
+                </label>
+                <label>
+                  <input type="radio" value="Choy" name="coffee">
+                  <div class="coffee__item">
+                    <img src="./images/home/taklif/choy.png" alt="coffee">
+                    <h4 class="coffee__name">Choy</h4>
+                  </div>
+                </label>
+              </div>
+              <div class="projects__bottom">
+                <button class="projects__bottom__link" style="border: none">
+                  <span>Mijoz</span> <span>bo’lish</span>
+                </button>
+                <button class="projects__bottom__link projects__bottom__link--2" style="border: none">
+                  <span>Mijoz</span> <span>bo’lish</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+  
+    </div>
+  </main>
+
+
+  <div id="footer">
+    <div class="container footer">
+      <div class="logo">
+        <p class="h1">LOGO</p>
+      </div>
+
+      <div class="lokatsiya">
+        <div class="lakat-img"><img src="./images/icons/lokatsiya.png" alt=""></div>
+        <div class="manzil">
+          <p>Manzil: Toshkent shahri, Sergeli tumani, Navro’z ko’cha 3-uy. <br>
+            Mo’ljal: “ASIA AUTO” avtosalon ichki qismi</p>
+        </div>
+      </div>
+
+      <div class="tel-adres">
+
+        <div class="tel">
+          <div class="tel-1">
+            <img src="images/icons/tel.png" alt="">
+            <a href="">+998 99 999 99 99</a>
+          </div>
+        </div>
+        <div class="tel-1">
+          <img src="images/icons/tel.png" alt="">
+          <a href="">+998 99 999 99 99</a>
+        </div>
+      </div>
+      <div class="net-adres">
+        <div class="net-img">
+          <img src="./images/icons/telegram.png" alt="">
+          <img src="./images/icons/facebook.png" alt="">
+          <img src="./images/icons/insta.png" alt="">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+
+  <script src="./js/main.js"></script>
+  <script src="./js/carusel.js"></script>
+  <script src="./slick-1.8.1/slick/slick.min.js"></script>
+  
+    <!-- <script type="module">
+      import createGlobe from 'https://cdn.skypack.dev/cobe';
+
+      let phi = 0;
+      let canvas = document.getElementById('cobe');
+
+      const globe = createGlobe(canvas, {
+        devicePixelRatio: 2,
+        width: 1000,
+        height: 1000,
+        phi: 0,
+        theta: 0,
+        dark: 1,
+        diffuse: 1.2,
+        scale: 1,
+        mapSamples: 16000,
+        mapBrightness: 6,
+        baseColor: [1, 1, 1],
+        markerColor: [1, 0.5, 1],
+        glowColor: [1, 1, 1],
+        offset: [0, 0],
+        markers: [
+          { location: [37.7595, -122.4367], size: 0.03 },
+          { location: [40.7128, -74.006], size: 0.1 },
+        ],
+        onRender: (state) => {
+          state.phi = phi;
+          phi += 0.01;
+        },
+      });
+    </script>
+    <script type="text/javascript">
+      $('.team__list').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 500,
+        centerMode: false,
+        centerPadding: '0px',
+        responsive: [
+          {
+            breakpoint: 1346,
+            settings: {
+              arrows: false,
+              centerMode: false,
+              centerPadding: '0px',
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 1046,
+            settings: {
+              arrows: false,
+              centerMode: false,
+              centerPadding: '0px',
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 700,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+
+      $('.blog__carousel').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+    </script> -->
+
+</body>
+
+</html>
